@@ -1,7 +1,3 @@
-# FaceRec
-A simple working facial recognition program.
-
-
 ## Installation:
     1. Install the dependencies
 
@@ -76,16 +72,3 @@ Given the constrain of the facenet model's accuracy, there are many ways you can
 
 This will definitely improve your program liability, because the result will most likely be leaning toward the right subject in the picture after some number of frames, instead of just deciding right away after 1 frame like you normally would. One benefit of this approach is that the longer the person stays in front of the camera, the more accurate and confident the result is, as confidence points get incremented over time.
 Also, you can do some multi-threading/processing tricks to improve performance.
-
-### Demos:
-
-![GIF Demo](https://media.giphy.com/media/l378mx3j8ZsWlOuze/giphy.gif)
-
-Live demo: https://www.youtube.com/watch?v=6CeCheBN0Mg
-
-
-
-@Author: David Vu
-
-## Credits:
-    -  Pretrained models from: https://github.com/davidsandberg/facenet
